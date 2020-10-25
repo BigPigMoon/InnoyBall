@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<person name="John">
+		<dialog title="Привет. Как ты?" id="0">
+			<line title="Хорошо.[выход]" exit="true"></line>
+			<line title="Не очень." exit="false">
+				<dialog title="Что случилось?" id="1">
+					<line title="Ничего.[выход]" exit="true"></line>
+					<line title="Моя игрушка сломалась." exit="false">
+						<dialog title="Это печально." id="2">
+							<line title="Дааа...[выход]" exit="true"></line>
+						</dialog>
+					</line>
+				</dialog>
+			</line>
+		</dialog>
+		<dialog title="Я идиот!" id="3">
+			<line title="Ок.[выход]" exit="true"></line>
+		</dialog>
+	</person>
+	
+	<person name="Ann">
+		<dialog title="Привет, меня зовут Анна." id="0">
+			<line title="Мое имя BigPigMoon[выход]" exit="true"></line>
+			<line title="Ты тупая шлюха![выход]" exit="true"></line>
+		</dialog>
+	</person>
+</data>
